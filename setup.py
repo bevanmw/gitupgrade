@@ -38,7 +38,8 @@ setup(
     ],
     keywords=[],
     install_requires=[
-        'click==6.7'
+        'click==6.7',
+        'requirements-parser==0.1.0'
     ],
     extras_require={},
     entry_points={
