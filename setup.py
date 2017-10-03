@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='upgradegit',
-    version='0.0.5',
+    version='0.0.6',
     license='BSD',
     description='Upgrade PIP and package.json git to latest HEAD',
     url='https://bitbucket.org/mybucks/upgrade',
