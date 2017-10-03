@@ -3,4 +3,3 @@ flake8==3.3.0
 pytest==3.1.2
 requirements-parser==0.1.0
 git-url-parse>=1.0.2
-git+ssh://git@bitbucket.org/mybucks/proto-repo.git@6c8d0b77a818967ba846f53cdfc4207f558959b8#egg=protorepo
