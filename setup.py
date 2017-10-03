@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='upgradegit',
-    version='0.4.1',
+    version='0.0.1',
     license='BSD',
     description='Upgrade PIP and package.json git to latest HEAD',
     url='https://bitbucket.org/mybucks/upgrade',
@@ -43,7 +43,7 @@ setup(
     extras_require={},
     entry_points={
         'console_scripts': [
-            'upgradegit = upgradegit.cli:cli',
+            'upgradegit = upgradegit.cli:upgrade',
         ]
     },
 )
