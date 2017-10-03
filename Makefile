@@ -20,6 +20,9 @@ test:
 dist:
 	. $(VENV)/bin/activate && python setup.py sdist
 
+upload:
+	twine upload dist/*
+
 clean:
 	rm -rf $(DIST) $(VENV) \
 	; find . -type f -name "*.py[co]" -delete \

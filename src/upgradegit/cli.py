@@ -20,7 +20,8 @@ def upgrade(file, branch):
                 result = result.strip()
                 results = re.findall(reg, result)
                 result = results[0][0]
-                line = re.sub(r'.git(?=(#|$))', '.git@'+result, req.line)
+                print('Setting {} to hash: {}'.format(req.uri, result))
+                line = re.sub(r'\.git.*?(?=(#|$))', '.git@'+result, req.line)
 
             else:
                 name = req.name
