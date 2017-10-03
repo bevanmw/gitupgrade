@@ -6,7 +6,7 @@ import re
 
 @click.command()
 @click.option('--file', default='requirements.txt', help='File to upgrade')
-@click.option('--branch', default='develop', help='Branch to upgrade from')
+@click.option('--branch', default='master', help='Branch to upgrade from')
 def upgrade(file, branch):
     lines = []
     with open(file, 'r') as f:

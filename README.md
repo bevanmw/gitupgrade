@@ -14,4 +14,4 @@ gitupgrade
 | Option         | Default          | Description                      |
 | ---------------|------------------|----------------------------------|
 | --file         | requirements.txt | file to upgrade                  |
-| --branch       | develop          | git branch to get hash from      |
+| --branch       | master           | git branch to get hash from      |
