@@ -20,7 +20,7 @@ def upgrade(file, branch):
                 result = result.strip()
                 results = re.findall(reg, result)
                 result = results[0][0]
-                line = re.sub(r'\@([0-9a-f]*)(?=(#|$))', '@'+result, req.line)
+                line = re.sub(r'.git(?=(#|$))', '.git@'+result, req.line)
 
             else:
                 name = req.name
